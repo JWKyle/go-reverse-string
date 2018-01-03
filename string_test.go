@@ -6,7 +6,7 @@ func Test(t *testing.T) {
       var tests = []struct {
         s, want string
       }{
-        {"Backwards", "sdrawkcaB"},
+        {"Backwards", "sdrawkcab"},
         {"Hello, Radar", "radaR ,olleH"},
         {"", ""},
       }

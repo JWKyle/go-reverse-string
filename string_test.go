@@ -6,8 +6,9 @@ func Test(t *testing.T) {
       var tests = []struct {
         s, want string
       }{
-        {"Backwards", "sdrawkcab"},
+        {"Backwards", "sdrawkcaB"},
         {"Hello, Radar", "radaR ,olleH"},
+        {"Hello, ステーキ", "キーテス ,olleH"},
         {"", ""},
       }
       for _, c := range tests {
